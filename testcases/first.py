@@ -30,7 +30,7 @@ class FirstTest(unittest.TestCase):
 
     def test_FlightSearch(self):
         driver=self.driver
-        assert "Google Flights" in driver.title
+        assert "Flights" in driver.title
         fromSearch="//div[@data-flt-ve='origin_airport']/div[3]"
         fromSearchInput="//input[@placeholder='Where from?']"
         toSearch="//div[@data-flt-ve='destination_airport']/div[3]"
